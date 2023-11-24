@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 
-export default class Spiner extends Component {
-  render() {
+const Spiner = ()=> {
+ 
     return (
       <div className='text-center' style={{marginTop:"25vh"}}>
         <img src='https://media.tenor.com/DvkbfBOHHAgAAAAi/biotime.gif' alt='...'/>
       </div>
     )
-  }
+  
 }
+
+export default Spiner
